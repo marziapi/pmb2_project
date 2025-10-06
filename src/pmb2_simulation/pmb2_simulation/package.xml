@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>pmb2_simulation</name>
+  <version>4.8.0</version>
+  <description>PMB2-specific simulation components. These include plugins
+               and launch scripts necessary for running PMB2 in simulation.</description>
+  <maintainer email="jordan.palacios@pal-robotics.com">Jordan Palacios</maintainer>
+  <maintainer email="noel.jimenez@pal-robotics.com">Noel Jimenez</maintainer>
+  <maintainer email="tiago-support@pal-robotics.com">TIAGo support PAL Robotics</maintainer>
+  <license>Apache License 2.0</license>
+  <author email="enrique.fernandez@pal-robotics.com">Enrique Fernandez</author>
+
+  <url type="website">https://github.com/pal-robotics/pmb2_simulation</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>pmb2_gazebo</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
