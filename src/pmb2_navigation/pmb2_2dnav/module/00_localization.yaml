@@ -1,0 +1,2 @@
+localization:
+  launch: "pmb2_2dnav localization.launch.py"

@@ -1,0 +1,2 @@
+navigation:
+  launch: "pmb2_2dnav navigation.launch.py"
