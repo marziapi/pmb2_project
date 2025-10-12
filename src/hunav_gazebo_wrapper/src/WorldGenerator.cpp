@@ -98,7 +98,7 @@ void WorldGenerator::readPluginParams()
   // Plugin parameters
   base_world_ = this->declare_parameter<std::string>("base_world", std::string("bookstore.world"));
   plug_use_gazebo_obs_ = this->declare_parameter<bool>("use_gazebo_obs", false);
-  plug_use_collision_ = this->declare_parameter<bool>("use_collision", false);
+  plug_use_collision_ = this->declare_parameter<bool>("use_collision", true);
   plug_update_rate_ = this->declare_parameter<double>("update_rate", 100.0);
   plug_robot_name_ = this->declare_parameter<std::string>("robot_name", std::string("robot"));
   RCLCPP_INFO(this->get_logger(), "Robot name: %s", plug_robot_name_.c_str());
