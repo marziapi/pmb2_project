@@ -15,7 +15,7 @@ hunav_loader:
       max_vel: 1.5
       radius: 0.4
       behavior: 
-        type: 4 # REGULAR=1, IMPASSIVE=2, SURPRISED=3, SCARED=4, CURIOUS=5, THREATENING=6
+        type: 6 # REGULAR=1, IMPASSIVE=2, SURPRISED=3, SCARED=4, CURIOUS=5, THREATENING=6
         configuration: 0 # def: 0, custom:1, random_normal:2, random_uniform:3
         duration: 40.0  # seg
         once: true
@@ -95,7 +95,7 @@ hunav_loader:
       max_vel: 1.5
       radius: 0.4
       behavior: 
-        type: 5 # REGULAR=1, IMPASSIVE=2, SURPRISED=3, SCARED=4, CURIOUS=5, THREATENING=6
+        type: 6 # REGULAR=1, IMPASSIVE=2, SURPRISED=3, SCARED=4, CURIOUS=5, THREATENING=6
         configuration: 1   # def: 0, custom:1, random_normal:2, random_uniform:3
         duration: 30.0  # seg
         once: true
@@ -135,7 +135,7 @@ hunav_loader:
       max_vel: 1.5
       radius: 0.4
       behavior: 
-        type: 2 # REGULAR=1, IMPASSIVE=2, SURPRISED=3, SCARED=4, CURIOUS=5, THREATENING=6
+        type: 6 # REGULAR=1, IMPASSIVE=2, SURPRISED=3, SCARED=4, CURIOUS=5, THREATENING=6
         configuration: 2   # def: 0, custom:1, random_normal:2, random_uniform:3
         duration: 40.0  # seg
         once: true
@@ -175,7 +175,7 @@ hunav_loader:
       max_vel: 1.5
       radius: 0.4
       behavior: 
-        type: 1 # REGULAR=1, IMPASSIVE=2, SURPRISED=3, SCARED=4, CURIOUS=5, THREATENING=6
+        type: 6 # REGULAR=1, IMPASSIVE=2, SURPRISED=3, SCARED=4, CURIOUS=5, THREATENING=6
         configuration: 3   # def: 0, custom:1, random_normal:2, random_uniform:3
         duration: 40.0  # seg
         once: true
