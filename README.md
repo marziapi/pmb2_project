@@ -12,7 +12,7 @@ git clone https://github.com/robotics-upo/lightsfm.git
 ```
 
 ## To use SLAM
-Modify the file /ros2_ws/src/hunav_gazebo_wrapper/src/WorldGenerator.cpp on line 101 to disable collision with the pedestrians:
+Modify the file ~/ros2_ws/src/hunav_gazebo_wrapper/src/WorldGenerator.cpp on line 101 to disable collision with the pedestrians:
 
 ```
 plug_use_collision_ = this->declare_parameter<bool>("use_collision", false);
