@@ -21,6 +21,13 @@ cp /<path-to-your-workspace>/src/lightsfm/include/sfm.hpp /usr/local/include/lig
 cp /<path-to-your-workspace>/src/lightsfm/include/vector2d.hpp /usr/local/include/lightsfm/
 ```
 
+## Run the simulation
+
+```
+ros2 launch hunav_gazebo_wrapper pmb2_cafe.launch.py
+```
+
+
 ## To use SLAM
 Modify the file ~/ros2_ws/src/hunav_gazebo_wrapper/src/WorldGenerator.cpp on line 101 to disable collision with the pedestrians:
 
