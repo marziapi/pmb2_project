@@ -10,6 +10,16 @@ Clone this repository and the following packages:
 git clone https://github.com/robotics-upo/hunav_sim.git
 git clone https://github.com/robotics-upo/lightsfm.git
 ```
+Copy the lightsfm library into your local files:
+
+```
+cd /usr/local/include/
+mkdir lightsfm
+cp /<path-to-your-workspace>/src/lightsfm/include/angle.hpp /usr/local/include/lightsfm/
+cp /<path-to-your-workspace>/src/lightsfm/include/map.hpp /usr/local/include/lightsfm/
+cp /<path-to-your-workspace>/src/lightsfm/include/sfm.hpp /usr/local/include/lightsfm/
+cp /<path-to-your-workspace>/src/lightsfm/include/vector2d.hpp /usr/local/include/lightsfm/
+```
 
 ## To use SLAM
 Modify the file ~/ros2_ws/src/hunav_gazebo_wrapper/src/WorldGenerator.cpp on line 101 to disable collision with the pedestrians:
